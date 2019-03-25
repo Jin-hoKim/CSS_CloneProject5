@@ -6,13 +6,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clone Project5</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
+
 <body>
-    <h1>hello?</h1>
+
+    <header class="header">
+        <h1 class="header__title">
+            <span>REL</span>
+            <span>ATE</span>
+        </h1>
+        <div class="header__icons">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-bell"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-plus"></i>
+            </span>
+        </div>
+    </header>
+
+    <div class="fakebg"></div>
+
+    <main class="main">
+        <header class="main__header">
+            <div class="main__header-column">
+                <h4 class="main__header-title">
+                    List
+                </h4>
+                <h5 class="main__header-subtitle">
+                    <span>24</span>
+                    <span>matches</span>
+                </h5>
+            </div>
+            <div class="main__header-column">
+                <i class="fas fa-check"></i>
+            </div>
+        </header>
+
+        <ul class="match-list">
+            <li class="match-item">
+                <img src="https://i-h1.pinimg.com/564x/f0/b3/40/f0b340f0af4c3cc93ce962f7d6ca07b5.jpg" alt="" class="match-item__avatar">
+                <div class="match-item__info">
+                    <span class="match-item__name">
+                        Dominic White
+                    </span>
+                    <span class="match-item__friends">
+                        <span>12</span>
+                    <span>friends</span>
+                    </span>
+                </div>
+                <span class="match-item__icon">
+                    <i class="fas fa-check"></i>
+                </span>
+            </li>
+            <li class="match-item">
+                <img src="https://i-h1.pinimg.com/564x/a7/be/f9/a7bef9881e414699b6dc5caf4faffdcc.jpg?b=t" alt="" class="match-item__avatar">
+                <div class="match-item__info">
+                    <span class="match-item__name">
+                        Samantha Winkler
+                    </span>
+                    <span class="match-item__friends">
+                        <span>8</span>
+                    <span>friends</span>
+                    </span>
+                </div>
+                <span class="match-item__icon">
+                    <i class="fas fa-check selected"></i>
+                </span>
+            </li>
+            <li class="match-item">
+                <img src="https://i-h1.pinimg.com/564x/67/93/35/679335a686bcfa1b31b51fdfc4ad6c95.jpg" alt="" class="match-item__avatar">
+                <div class="match-item__info">
+                    <span class="match-item__name">
+                        Sebastian Torres
+                    </span>
+                    <span class="match-item__friends">
+                        <span>6</span>
+                    <span>friends</span>
+                    </span>
+                </div>
+                <span class="match-item__icon">
+                    <i class="fas fa-check"></i>
+                </span>
+            </li>
+            <li class="match-item">
+                <img src="https://i-h1.pinimg.com/564x/8b/55/8c/8b558c680511a7d6566407e8d84635f9.jpg?b=t" alt="" class="match-item__avatar">
+                <div class="match-item__info">
+                    <span class="match-item__name">
+                        Lidia Berg
+                    </span>
+                    <span class="match-item__friends">
+                        <span>5</span>
+                    <span>friends</span>
+                    </span>
+                </div>
+                <span class="match-item__icon">
+                    <i class="fas fa-check selected"></i>
+                </span>
+            </li>
+            <li class="match-item">
+                <img src="https://i-h1.pinimg.com/564x/6a/a6/81/6aa6818e05fb44858481fd7e47111ae1.jpg" alt="" class="match-item__avatar">
+                <div class="match-item__info">
+                    <span class="match-item__name">
+                        Lucy Martin
+                    </span>
+                    <span class="match-item__friends">
+                        <span>3</span>
+                    <span>friends</span>
+                    </span>
+                </div>
+                <span class="match-item__icon">
+                    <i class="fas fa-check"></i>
+                </span>
+            </li>
+            <li class="match-item">
+                <img src="https://i-h1.pinimg.com/564x/2c/fe/ae/2cfeae8200082055fde57e518a9602b0.jpg" alt="" class="match-item__avatar">
+                <div class="match-item__info">
+                    <span class="match-item__name">
+                        Camilla Linda
+                    </span>
+                    <span class="match-item__friends">
+                        <span>1</span>
+                    <span>friends</span>
+                    </span>
+
+                </div>
+                <span class="match-item__icon">
+                    <i class="fas fa-check"></i>
+                </span>
+            </li>
+        </ul>
+
+    </main>
+
+    <button class="match-list__button">
+        follow
+    </button>
 
     <script src="./js/index.js"></script>
+
 </body>
 
 </html>
